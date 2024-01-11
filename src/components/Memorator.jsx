@@ -33,7 +33,7 @@ function generatePDF(autor, destino, asunto, memo, fechaHoy, codigo) {
   
     // Agregar una imagen en la parte izquierda
     const img = new Image();
-    img.src = "../src/images/logoaf.png"; // Reemplaza con la ruta real de tu imagen
+    img.src = "./../src/images/logoaf.png"; // Reemplaza con la ruta real de tu imagen
     doc.addImage(img, 'JPEG', margin + 2, margin, 15, 15);
   
     // Agregar texto "Agrotecnica" en la misma línea que la imagen
@@ -127,7 +127,7 @@ export const Memorator = () => {
                 <div className="mensaje" onClick={() => { generatePDF(autor, destino, asunto, memo, fechaHoy, codigo) }} >
 
                 <p>Datos Procesados con exito!!!</p>
-                <p>Click para generar pdf y volver a Menu</p>
+                <p>Presiona aqui para Descargar el archivo y volver a Menu</p>
 
                 </div>
             </Link>
