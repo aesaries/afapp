@@ -1,0 +1,18 @@
+.pie{
+    background:black;
+    color: blanchedalmond;
+    font-family: sans-serif;
+    font-size: xx-small;
+    position: absolute;
+    left: 0;
+    height: 2.5rem;
+    bottom: 0;
+    width:100%;
+    justify-content: center;
+} 
+
+.parraf{
+    
+    text-align: center;
+
+}

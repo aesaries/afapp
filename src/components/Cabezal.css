@@ -1,0 +1,40 @@
+nav{
+    display:grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background: rgb(148, 46, 46);
+    font-family: sans-serif;
+    position:fixed;
+    left: 0;
+    top:0;
+    width:100%;
+    z-index: 10;
+    }
+nav .logo{
+    font-size: 24px;
+    font-weight:black;
+    }
+nav .barnav{
+    position: absolute;
+    left: 35%;
+    display:grid;
+    
+    }
+
+
+nav .barnav div{
+    font-size: 24px;
+    font-weight:bolder;
+    color: black;
+    padding: 10px 20px;
+    }
+
+
+/* ----------------------------- Medias Queries ----------------------------- */
+
+
+@media (max-width: 720px){
+    nav .barnav{
+        left: 25%;
+    }
+}

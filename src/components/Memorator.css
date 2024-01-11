@@ -1,0 +1,20 @@
+.mensaje{
+    position:relative;
+    top:10rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px 16px 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(34, 32, 32);
+    color: rgb(211, 211, 48);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.mensaje p{
+    color:white;
+    text-align: center;
+       
+
+}

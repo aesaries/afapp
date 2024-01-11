@@ -1,0 +1,60 @@
+.btnContenedor{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    top:8rem;
+    left: 35%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.boton{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: rgb(50, 50, 99);
+    width: 20rem;
+    font-weight: bold;
+    margin: 0.5rem;
+    color: rgb(204, 176, 141);
+}
+.boton:hover{
+    background-color: rgb(71, 112, 29);
+}
+
+
+/* ----------------------------- Medias Queries ----------------------------- */
+
+
+@media (min-width:560px) and (max-width: 720px){
+    .btnContenedor{
+        left: 25%;
+    }
+    .boton{
+        width: 19rem;
+    }
+}
+
+@media (min-width:320px) and (max-width: 560px){
+    .btnContenedor{
+        left: 15%;
+    }
+    .boton{
+        width: 18rem;
+    }
+}
+
+
+@media (max-width: 320px){
+    .btnContenedor{
+        left: 5%;
+    }
+    .boton{
+        width: 15rem;
+    }
+}

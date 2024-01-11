@@ -1,0 +1,11 @@
+html {
+    min-height: 100vh;
+    position: relative;
+}
+
+:root {
+    margin: 0;
+    background-color: rgb(59, 58, 58);
+    padding-bottom: 2.5rem;
+
+}
