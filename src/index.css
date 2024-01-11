@@ -1,4 +1,5 @@
 html {
+    min-width: 80vh;
     min-height: 100vh;
     position: relative;
 }
