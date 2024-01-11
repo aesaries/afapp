@@ -1,6 +1,6 @@
 nav{
-    display:grid;
-    grid-template-columns: 1fr auto;
+    display:block;
+    /* grid-template-columns: 1fr auto; */
     align-items: center;
     background: rgb(148, 46, 46);
     font-family: sans-serif;
@@ -17,6 +17,7 @@ nav .logo{
 nav .barnav{
     position: absolute;
     left: 35%;
+    top: 10%;
     display:grid;
     
     }
