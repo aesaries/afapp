@@ -1,5 +1,5 @@
 import './Cabezal.css';
-import { logoPng } from "../src/images/logoaf.png";
+import { logoPng } from "../images/logoaf.png";
 
 export const Cabezal = () => {
     
