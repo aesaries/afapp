@@ -33,7 +33,7 @@ function generatePDF(autor, destino, asunto, memo, fechaHoy, codigo) {
   
     // Agregar una imagen en la parte izquierda
     const img = new Image();
-    img.src = "./../src/images/logoaf.png"; // Reemplaza con la ruta real de tu imagen
+    img.src = "/logoaf.png"; // Reemplaza con la ruta real de tu imagen
     doc.addImage(img, 'JPEG', margin + 2, margin, 15, 15);
   
     // Agregar texto "Agrotecnica" en la misma línea que la imagen
