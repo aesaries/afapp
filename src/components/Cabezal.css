@@ -1,5 +1,5 @@
 nav{
-    display:block;
+    display:flex;
     /* grid-template-columns: 1fr auto; */
     align-items: center;
     background: rgb(148, 46, 46);
@@ -7,7 +7,7 @@ nav{
     position:fixed;
     left: 0;
     top:0;
-    width:100%;
+    width:100vw;
     z-index: 10;
     }
 nav .logo{
@@ -16,18 +16,20 @@ nav .logo{
     }
 nav .barnav{
     position: absolute;
-    left: 35%;
+    left: 25%;
     top: 10%;
-    display:grid;
+    display:flex;
     
     }
 
 
 nav .barnav div{
-    font-size: 24px;
+    justify-content: center;
+    display: inline;
+    font-size: 1.5rem;
     font-weight:bolder;
     color: black;
-    padding: 10px 20px;
+    padding: 10px 5px;
     }
 
 

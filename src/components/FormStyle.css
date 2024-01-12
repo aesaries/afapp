@@ -2,7 +2,8 @@
 
 .formulario {
 	justify-self: center;
-	width:42rem;
+	margin-left: 4%;
+	width:90vw;
 	margin-top: 100px;
 	background: rgb(80, 66, 66);
 	border-radius: 5px;
@@ -24,7 +25,7 @@
 
 .formulario input {
 	font-family: 'Open Sans', sans-serif;
-	width: 90%;
+	width: 80vw;
 	border-radius: 5px;
 	border: 2px solid #e2e2e2;
 	font-size: 18px;
@@ -35,7 +36,7 @@
 
 .formulario textarea {
 	font-family: 'Open Sans', sans-serif;
-	width: 90%;
+	width: 80vw;
 	height: 50%;
 	border-radius: 5px;
 	border: 2px solid #e2e2e2;
@@ -63,7 +64,7 @@
 	font-family: 'Open Sans', sans-serif;
 	border: none;
 	cursor: pointer;
-	width: 95%;
+	width: 82vw;
 	padding: 10px;
 	border-radius: 5px;
 	color: #fff;
@@ -95,7 +96,7 @@
 
 /* ----------------------------- Medias Queries ----------------------------- */
 
-
+/* 
 @media (min-width:560px) and (max-width: 720px){
 	.formulario{
 		width: 35rem;
@@ -125,4 +126,4 @@
 		width: 16rem;
 	}
 	
-}
+} */
