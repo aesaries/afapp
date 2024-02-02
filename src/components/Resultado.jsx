@@ -31,6 +31,7 @@ export const Resultado = () => {
               </h4>
               <p>Legajo: {item.Legajo}</p>
               <p>Documento: {item.Documento}</p>
+              <p>Fecha Ingreso: {item.Alta}</p>
               <p>Categoria: {item.Categoria}</p>
               <p>Sector: {item.Sector}</p>    
                   

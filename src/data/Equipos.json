@@ -1,0 +1,679 @@
+[
+  {
+    "INTERNO": "930",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2019",
+    "DOMINIO": "AE517ZB"
+  },
+  {
+    "INTERNO": "931",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2019",
+    "DOMINIO": "AE517ZD"
+  },
+  {
+    "INTERNO": "932",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2019",
+    "DOMINIO": "AE517ZC"
+  },
+  {
+    "INTERNO": "933",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2019",
+    "DOMINIO": "AE511MT"
+  },
+  {
+    "INTERNO": "934",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2020",
+    "DOMINIO": "AE599MG"
+  },
+  {
+    "INTERNO": "935",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2020",
+    "DOMINIO": "AE586ZP"
+  },
+  {
+    "INTERNO": "936",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2020",
+    "DOMINIO": "AE599ML"
+  },
+  {
+    "INTERNO": "937",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2020",
+    "DOMINIO": "AE599MM"
+  },
+  {
+    "INTERNO": "938",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2020",
+    "DOMINIO": "AE599MF"
+  },
+  {
+    "INTERNO": "939",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2020",
+    "DOMINIO": "AE599MD"
+  },
+  {
+    "INTERNO": "940",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2020",
+    "DOMINIO": "AE568ZV"
+  },
+  {
+    "INTERNO": "941",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2020",
+    "DOMINIO": "AE568ZR"
+  },
+  {
+    "INTERNO": "942",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2020",
+    "DOMINIO": "AE510NH"
+  },
+  {
+    "INTERNO": "943",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2020",
+    "DOMINIO": "AE910NI"
+  },
+  {
+    "INTERNO": "944",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2020",
+    "DOMINIO": "AE689EY"
+  },
+  {
+    "INTERNO": "945",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2020",
+    "DOMINIO": "AE599MU"
+  },
+  {
+    "INTERNO": "946",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2021",
+    "DOMINIO": "AE689EV"
+  },
+  {
+    "INTERNO": "947",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2021",
+    "DOMINIO": "AE910NO"
+  },
+  {
+    "INTERNO": "948",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2020",
+    "DOMINIO": "AE599MK"
+  },
+  {
+    "INTERNO": "949",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2021",
+    "DOMINIO": "AE689EW"
+  },
+  {
+    "INTERNO": "950",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2021",
+    "DOMINIO": "AE689EZ"
+  },
+  {
+    "INTERNO": "951",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2021",
+    "DOMINIO": "AE910NQ"
+  },
+  {
+    "INTERNO": "851",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB005CK"
+  },
+  {
+    "INTERNO": "852",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB005CE"
+  },
+  {
+    "INTERNO": "853",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB005CM"
+  },
+  {
+    "INTERNO": "854",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB005CL"
+  },
+  {
+    "INTERNO": "855",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB005CJ"
+  },
+  {
+    "INTERNO": "856",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB308VY"
+  },
+  {
+    "INTERNO": "857",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB308VX"
+  },
+  {
+    "INTERNO": "858",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB308TR"
+  },
+  {
+    "INTERNO": "859",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB370BN"
+  },
+  {
+    "INTERNO": "860",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB370BG"
+  },
+  {
+    "INTERNO": "861",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB407PS"
+  },
+  {
+    "INTERNO": "862",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB470PW"
+  },
+  {
+    "INTERNO": "863",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB407PV"
+  },
+  {
+    "INTERNO": "864",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB407PT"
+  },
+  {
+    "INTERNO": "865",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB005CN"
+  },
+  {
+    "INTERNO": "866",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB005CF"
+  },
+  {
+    "INTERNO": "277",
+    "TIPO": "IVECO DAILY- MINI COMP",
+    "MODELO": "2021",
+    "DOMINIO": "AE745LJ"
+  },
+  {
+    "INTERNO": "603",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2011",
+    "DOMINIO": "JXZ362"
+  },
+  {
+    "INTERNO": "612",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2011",
+    "DOMINIO": "KDH179"
+  },
+  {
+    "INTERNO": "617",
+    "TIPO": "IVECO COMPACTADOR",
+    "MODELO": "2011",
+    "DOMINIO": "JXZ358"
+  },
+  {
+    "INTERNO": "974",
+    "TIPO": "IVECO BARREDORA",
+    "MODELO": "2020",
+    "DOMINIO": "AE599MT"
+  },
+  {
+    "INTERNO": "975",
+    "TIPO": "IVECO BARREDORA",
+    "MODELO": "2020",
+    "DOMINIO": "AE564GK"
+  },
+  {
+    "INTERNO": "976",
+    "TIPO": "IVECO BARREDORA",
+    "MODELO": "2020",
+    "DOMINIO": "AE586ZQ"
+  },
+  {
+    "INTERNO": "641",
+    "TIPO": "IVECO BARREDORA",
+    "MODELO": "2010",
+    "DOMINIO": "JJU720"
+  },
+  {
+    "INTERNO": "642",
+    "TIPO": "IVECO BARREDORA",
+    "MODELO": "2011",
+    "DOMINIO": "JXZ356"
+  },
+  {
+    "INTERNO": "712",
+    "TIPO": "MINI BARREDORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "595",
+    "TIPO": "MINI BARREDORA VERDE",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "972",
+    "TIPO": "IVECO ALMEJA",
+    "MODELO": "2020",
+    "DOMINIO": "AE566ZY"
+  },
+  {
+    "INTERNO": "973",
+    "TIPO": "IVECO ALMEJA",
+    "MODELO": "2020",
+    "DOMINIO": "AE586ZW"
+  },
+  {
+    "INTERNO": "643",
+    "TIPO": "IVECO ALMEJA",
+    "MODELO": "2011",
+    "DOMINIO": "JXZ364"
+  },
+  {
+    "INTERNO": "644",
+    "TIPO": "IVECO ALMEJA",
+    "MODELO": "2010",
+    "DOMINIO": "KFK106"
+  },
+  {
+    "INTERNO": "645",
+    "TIPO": "IVECO ALMEJA",
+    "MODELO": "2010",
+    "DOMINIO": "JKM068"
+  },
+  {
+    "INTERNO": "222",
+    "TIPO": "IVECO ALZACONTENEDOR",
+    "MODELO": "2017",
+    "DOMINIO": "AC576SR"
+  },
+  {
+    "INTERNO": "223",
+    "TIPO": "IVECO ALZACONTENEDOR",
+    "MODELO": "2017",
+    "DOMINIO": "AC576SQ"
+  },
+  {
+    "INTERNO": "868",
+    "TIPO": "IVECO ALZACONTENEDOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB005CT"
+  },
+  {
+    "INTERNO": "850",
+    "TIPO": "IVECO ALZACONTENEDOR",
+    "MODELO": "2017",
+    "DOMINIO": "AB005CB"
+  },
+  {
+    "INTERNO": "970",
+    "TIPO": "IVECO VOLCADOR",
+    "MODELO": "2020",
+    "DOMINIO": "AE566ZX"
+  },
+  {
+    "INTERNO": "971",
+    "TIPO": "IVECO VOLCADOR",
+    "MODELO": "2020",
+    "DOMINIO": "AE566ZU"
+  },
+  {
+    "INTERNO": "648",
+    "TIPO": "IVECO VOLCADOR",
+    "MODELO": "2010",
+    "DOMINIO": "JJU719"
+  },
+  {
+    "INTERNO": "224",
+    "TIPO": "IVECO VOLCADOR",
+    "MODELO": "",
+    "DOMINIO": "FNC593"
+  },
+  { "INTERNO": "903", "TIPO": "PALITA", "MODELO": "", "DOMINIO": "S/N" },
+  { "INTERNO": "904", "TIPO": "PALITA", "MODELO": "", "DOMINIO": "S/N" },
+  { "INTERNO": "905", "TIPO": "PALITA", "MODELO": "", "DOMINIO": "S/N" },
+  { "INTERNO": "906", "TIPO": "PALITA", "MODELO": "", "DOMINIO": "S/N" },
+  { "INTERNO": "907", "TIPO": "PALITA", "MODELO": "", "DOMINIO": "S/N" },
+  {
+    "INTERNO": "804",
+    "TIPO": "VW SAVEIRO",
+    "MODELO": "2017",
+    "DOMINIO": "AB485UD"
+  },
+  {
+    "INTERNO": "805",
+    "TIPO": "VW SAVEIRO",
+    "MODELO": "2017",
+    "DOMINIO": "AB485QG"
+  },
+  {
+    "INTERNO": "808",
+    "TIPO": "VW SAVEIRO",
+    "MODELO": "2017",
+    "DOMINIO": "AB485QJ"
+  },
+  {
+    "INTERNO": "809",
+    "TIPO": "VW SAVEIRO",
+    "MODELO": "2017",
+    "DOMINIO": "AB485QC"
+  },
+  {
+    "INTERNO": "811",
+    "TIPO": "VW SAVEIRO",
+    "MODELO": "2017",
+    "DOMINIO": "AB485QH"
+  },
+  {
+    "INTERNO": "812",
+    "TIPO": "VW SAVEIRO",
+    "MODELO": "2017",
+    "DOMINIO": "AB485QF"
+  },
+  {
+    "INTERNO": "813",
+    "TIPO": "VW SAVEIRO",
+    "MODELO": "2017",
+    "DOMINIO": "AB485QB"
+  },
+  {
+    "INTERNO": "226",
+    "TIPO": "VW SAVEIRO",
+    "MODELO": "2017",
+    "DOMINIO": "AB485QI"
+  },
+  { "INTERNO": "659", "TIPO": "NISSAN", "MODELO": "2010", "DOMINIO": "QHT376" },
+  { "INTERNO": "660", "TIPO": "NISSAN", "MODELO": "2010", "DOMINIO": "JHT388" },
+  { "INTERNO": "663", "TIPO": "NISSAN", "MODELO": "2010", "DOMINIO": "JHT382" },
+  { "INTERNO": "664", "TIPO": "NISSAN", "MODELO": "2010", "DOMINIO": "JHT375" },
+  { "INTERNO": "669", "TIPO": "NISSAN", "MODELO": "2010", "DOMINIO": "JHT384" },
+  { "INTERNO": "670", "TIPO": "NISSAN", "MODELO": "2010", "DOMINIO": "JHT390" },
+  { "INTERNO": "671", "TIPO": "NISSAN", "MODELO": "2010", "DOMINIO": "JHT387" },
+  { "INTERNO": "672", "TIPO": "NISSAN", "MODELO": "2010", "DOMINIO": "JHT385" },
+  {
+    "INTERNO": "711",
+    "TIPO": "TRACTOR JOHN DEER",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  { "INTERNO": "720", "TIPO": "TRACTOR", "MODELO": "", "DOMINIO": "S/N" },
+  { "INTERNO": "721", "TIPO": "TRACTOR", "MODELO": "", "DOMINIO": "S/N" },
+  {
+    "INTERNO": "731",
+    "TIPO": "CARNE E' PERRO- HONDA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "732",
+    "TIPO": "CARNE E' PERRO- HONDA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "733",
+    "TIPO": "CARNE E' PERRO- HONDA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "734",
+    "TIPO": "CARNE E' PERRO- HONDA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "735",
+    "TIPO": "CARNE E' PERRO- HONDA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "715",
+    "TIPO": "TRACTOR MURRAY",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "716",
+    "TIPO": "TRACTOR YARDMAN",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  { "INTERNO": "908", "TIPO": "CHIPEADORA", "MODELO": "", "DOMINIO": "S/N" },
+  { "INTERNO": "909", "TIPO": "CHIPEADORA", "MODELO": "", "DOMINIO": "S/N" },
+  {
+    "INTERNO": "901",
+    "TIPO": "MERCEDES BENZ",
+    "MODELO": "2014",
+    "DOMINIO": "NYU414"
+  },
+  {
+    "INTERNO": "902",
+    "TIPO": "MERCEDES BENZ",
+    "MODELO": "2017",
+    "DOMINIO": "NYU417"
+  },
+  {
+    "INTERNO": "A01",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A02",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A03",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A04",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A05",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A06",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A07",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A08",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A09",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A10",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A11",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A12",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A13",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A14",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A15",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A16",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A17",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A18",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A19",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A20",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A21",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A22",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A23",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A24",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A25",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A26",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A27",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A28",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A29",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  },
+  {
+    "INTERNO": "A30",
+    "TIPO": "ECHO DESMALEZADORA",
+    "MODELO": "",
+    "DOMINIO": "S/N"
+  }
+]

@@ -9,6 +9,7 @@ import { Personal } from "./pages/Personal"
 import { Memorator } from "./components/Memorator"
 import './App.css'
 import { Resultado } from "./components/Resultado"
+import { Equipos } from "./components/Equipos"
 
 function App() {
  
@@ -28,6 +29,7 @@ function App() {
             <Route path="/memo" element={<Memo />} />
             <Route path="/resultado" element={<Resultado />} />
             <Route path="/memorator" element={<Memorator />} />
+            <Route path="/equipos" element={<Equipos />} />
 
           </Routes>
         </FormProvider>

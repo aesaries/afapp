@@ -14,6 +14,10 @@ export const Menu = () => {
             <Link to ="memo">
                 <button className="boton">Confeccion de Memo</button>
             </Link>
+            <br />
+            <Link to ="equipos">
+                <button className="boton">Consulta de equipos</button>
+            </Link>
             
 
         </div>
