@@ -39,8 +39,8 @@ export const Equipos = () => {
               <h4>Interno :
                 {item.INTERNO}
               </h4>
-              <p>Legajo: {item.TIPO}</p>
-              <p>Tipo Camion: {item.MODELO}</p>
+              <p>Vehiculo: {item.TIPO}</p>
+              <p>Modelo: {item.MODELO}</p>
               <p>Dominio: {item.DOMINIO}</p>
               
                   
