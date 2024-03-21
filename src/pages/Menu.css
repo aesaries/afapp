@@ -1,11 +1,11 @@
 .btnContenedor{
-    orientation: portrait;
-    position: absolute;
+    
+    position: absolute; 
     display: flex;
     flex-direction: column;
     width: 90vw;
     top:8rem;
-    left: 35%;
+    left: 40%;
     margin-left: auto;
     margin-right: auto;
    
@@ -67,4 +67,4 @@
     .boton{
         width: 15rem;
     }
-}
+} 
