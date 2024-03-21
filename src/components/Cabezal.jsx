@@ -7,7 +7,9 @@ export const Cabezal = () => {
       <nav>
         <img src= "/logoaf.png" alt='LogoAf' className="logo"></img>
         <div className="barnav">
-          <div>Agrotecnica Fueguina</div>
+          <h1>Agrotecnica Fueguina</h1>
+        </div>
+        <div>
           
         </div>
       </nav>

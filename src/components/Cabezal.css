@@ -9,22 +9,25 @@ nav{
     top:0;
     width:100vw;
     z-index: 10;
+    justify-content: space-between;
+
+    
     }
 nav .logo{
     font-size: 24px;
     font-weight:black;
-    }
-nav .barnav{
-    position: absolute;
-    left: 25%;
-    top: 10%;
-    display:flex;
+   
     
     }
+    
+nav .barnav{
+        
+       
+    }
 
 
-nav .barnav div{
-    justify-content: center;
+nav .barnav h1{
+    
     display: inline;
     font-size: 1.5rem;
     font-weight:bolder;
