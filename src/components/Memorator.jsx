@@ -6,7 +6,11 @@ import "./Memorator.css"
 const fecha = new Date()
 
 function asignaFecha(){
-    return fecha.getDate() + "/" + fecha.getMonth()+1 + "/" + (fecha.getFullYear()-2000)
+    const diaHoy = fecha.getDate();
+    const mesHoy = fecha.getMonth()+1;
+    const anioHoy = fecha.getFullYear()-2000;
+
+    return  diaHoy + "/" + mesHoy + "/" + anioHoy;
 }
 
 function generaCodigo(){
