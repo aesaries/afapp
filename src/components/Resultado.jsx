@@ -5,7 +5,7 @@ import personalData from "../data/Personal.json"
 const filtrarDatos = (campo, parametro) => {
   return personalData.filter(item => {
     if (parametro === "Legajo") {
-      return item.Legajo.startsWith(campo);
+      return item.Legajo.toString().startsWith(campo);
     } else if (parametro === "Apellido") {
       return item.Apellido.toLowerCase().includes(campo.toLowerCase());
     }
