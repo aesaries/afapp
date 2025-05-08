@@ -1,5 +1,4 @@
-
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom"
 import { FormProvider } from "./components/FormContext"
 import { Cabezal } from './components/Cabezal'
 import { Menu } from './pages/Menu'
@@ -10,41 +9,50 @@ import { Memorator } from "./components/Memorator"
 import './App.css'
 import { Resultado } from "./components/Resultado"
 import { Equipos } from "./components/Equipos"
+import Login from "./pages/Login"
+import { AuthProvider } from "./context/AuthContext"
+import PrivateRoute from "./routes/PrivateRoute"
+import LayoutGeneral from "./components/LayoutGeneral";
 
-function App() {
- 
+function AppContent() {
+  const location = useLocation();
+  const isLoginPage = location.pathname === "/login";
 
   return (
     <>
-     
-      <BrowserRouter>
+      {!isLoginPage && (
         <Link to="/">
-            <Cabezal />
+          <Cabezal />
         </Link>
-        <FormProvider>
-          <Routes>
+      )}
 
-            <Route path="/" element={<Menu />} />
-            <Route path="/personal" element={<Personal />} />
-            <Route path="/memo" element={<Memo />} />
-            <Route path="/resultado" element={<Resultado />} />
-            <Route path="/memorator" element={<Memorator />} />
-            <Route path="/equipos" element={<Equipos />} />
+      <FormProvider>
+        <Routes>
+          <Route path="/login" element={<LayoutGeneral> <Login /> </LayoutGeneral>} />
 
-          </Routes>
-        </FormProvider>
+          {/* Rutas protegidas */}
+          <Route path="/" element={<PrivateRoute><Menu /></PrivateRoute>} />
+          <Route path="/personal" element={<PrivateRoute><Personal /></PrivateRoute>} />
+          <Route path="/memo" element={<PrivateRoute><Memo /></PrivateRoute>} />
+          <Route path="/resultado" element={<PrivateRoute><Resultado /></PrivateRoute>} />
+          <Route path="/memorator" element={<PrivateRoute><Memorator /></PrivateRoute>} />
+          <Route path="/equipos" element={<PrivateRoute><Equipos /></PrivateRoute>} />
+        </Routes>
+      </FormProvider>
 
-
-        <Pie />
-      </BrowserRouter>
-      
-      
-    
-
-      
-
+      {!isLoginPage && <Pie />}
     </>
-  )
+  );
 }
 
-export default App
+function App() {
+  return (
+    <AuthProvider>
+      <BrowserRouter>
+        <AppContent />
+      </BrowserRouter>
+    </AuthProvider>
+  );
+}
+
+export default App;
