@@ -1,10 +1,30 @@
 [
     {
-        "username": "admin",
-        "password": "1234"
+        "username": "5672",
+        "password": "Aranda"
     },
     {
-        "username": "usuario1",
-        "password": "abcd"
+        "username": "5880",
+        "password": "Fiore"
+    },
+    {
+        "username": "5669",
+        "password": "Enzo"
+    },
+    {
+        "username": "5923",
+        "password": "Perea"
+    },
+    {
+        "username": "5842",
+        "password": "Arellano"
+    },
+    {
+        "username": "5924",
+        "password": "Vilaseca"
+    },
+    {
+        "username": "5916",
+        "password": "Acuña"
     }
 ]
