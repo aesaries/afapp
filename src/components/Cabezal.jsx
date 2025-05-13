@@ -1,10 +1,13 @@
 import './Cabezal.css';
+import { useAuth } from "../context/AuthContext";
+import { useLocation } from 'react-router-dom';
 
-const savedUser = localStorage.getItem("user");
-const userName = savedUser.userName;
-const pass = savedUser.password;
 
 export const Cabezal = () => {
+  const { user } = useAuth();
+  const location = useLocation();
+  const ifLoginPage = location.pathname === "/login";
+
 
   return (
     <nav>
@@ -12,8 +15,9 @@ export const Cabezal = () => {
       <div className="barnav">
         <h1>Agrotecnica Fueguina</h1>
       </div>
-      <div>
-        <h5>{userName}</h5>
+      <div className="usuarioLogeado">
+        {user && !ifLoginPage && `Bienvenido, ${user.username}`}
+        {user && ifLoginPage && `Ingrese Credenciales`}
       </div>
     </nav>
   );
