@@ -13,17 +13,19 @@ export const FormMemo = () => {
   const sigCanvas = useRef();
 
   const SignupSchema = Yup.object().shape({
-    autor: Yup.string().min(4, 'Muy corto!').max(20, 'demasiado extenso!')
+    autor: Yup.string().min(4, 'Muy corto!').max(20, 'Demasiado extenso!')
       .required('Debe ingresar un dato'),
-    destino: Yup.string().min(3, 'Muy corto!').max(20, 'demasiado extenso!')
+    destino: Yup.string().min(3, 'Muy corto!').max(20, 'Demasiado extenso!')
       .required('Debe ingresar un dato'),
-    asunto: Yup.string().min(4, 'Muy corto!').max(40, 'demasiado extenso!')
+    asunto: Yup.string().min(4, 'Muy corto!').max(40, 'Demasiado extenso!')
       .required('Debe ingresar un dato'),
     memo: Yup.string().min(10, 'Muy corto!')
       .required('Debe ingresar un dato'),
+    incluirFirma: Yup.boolean(),
     aclaracionFirma: Yup.string().when("incluirFirma", {
-      is: true,
-      then: Yup.string().required("Debe aclarar la firma")
+      is: (val) => val === true,
+      then: () => Yup.string().required("Debe aclarar la firma"),
+      otherwise: () => Yup.string().notRequired()
     })
   });
 
@@ -43,10 +45,9 @@ export const FormMemo = () => {
         validationSchema={SignupSchema}
         onSubmit={(valores, { resetForm }) => {
           const firma = valores.incluirFirma
-            ? sigCanvas.current.getTrimmedCanvas().toDataURL("image/png")
+            ? sigCanvas.current.getCanvas().toDataURL("image/png")
             : null;
 
-          console.log(valores);
           setEnviado(true);
           setTimeout(() => {
             setEnviado(false);
@@ -60,58 +61,26 @@ export const FormMemo = () => {
           <Form className="formulario">
             <div>
               <label htmlFor="autor">Autor del Memo</label>
-              <Field
-                type="text"
-                id="autor"
-                name="autor"
-                placeholder="Quien hace el memo"
-              />
-              <ErrorMessage
-                name="autor"
-                component={() => <div className="error">{errors.autor}</div>}
-              />
+              <Field type="text" id="autor" name="autor" placeholder="Quien hace el memo" />
+              <ErrorMessage name="autor" component={() => <div className="error">{errors.autor}</div>} />
             </div>
 
             <div>
               <label htmlFor="destino">Dirigido a:</label>
-              <Field
-                type="text"
-                id="destino"
-                name="destino"
-                placeholder="A quien va dirigido?"
-              />
-              <ErrorMessage
-                name="destino"
-                component={() => <div className="error">{errors.destino}</div>}
-              />
+              <Field type="text" id="destino" name="destino" placeholder="A quien va dirigido?" />
+              <ErrorMessage name="destino" component={() => <div className="error">{errors.destino}</div>} />
             </div>
 
             <div>
               <label htmlFor="asunto">Asunto</label>
-              <Field
-                type="text"
-                id="asunto"
-                name="asunto"
-                placeholder="Asunto"
-              />
-              <ErrorMessage
-                name="asunto"
-                component={() => <div className="error">{errors.asunto}</div>}
-              />
+              <Field type="text" id="asunto" name="asunto" placeholder="Asunto" />
+              <ErrorMessage name="asunto" component={() => <div className="error">{errors.asunto}</div>} />
             </div>
 
             <div>
               <label htmlFor="memo">Memo</label>
-              <Field
-                as="textarea"
-                id="memo"
-                name="memo"
-                placeholder="Escriba el memo aqui"
-              />
-              <ErrorMessage
-                name="memo"
-                component={() => <div className="error">{errors.memo}</div>}
-              />
+              <Field as="textarea" id="memo" name="memo" placeholder="Escriba el memo aqui" />
+              <ErrorMessage name="memo" component={() => <div className="error">{errors.memo}</div>} />
             </div>
 
             <div>
@@ -150,10 +119,10 @@ export const FormMemo = () => {
 
             <button type="submit">Generar Memo</button>
 
-            {enviado && <p className="exito">Formulario enviado con exito</p>}
+            {enviado && <p className="exito">Formulario enviado con éxito</p>}
           </Form>
         )}
       </Formik>
     </>
   );
-}
+};
