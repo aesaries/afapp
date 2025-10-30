@@ -1,6 +1,7 @@
 import { useFormContext } from './FormContext';
 import "./Resultado.css"
 import personalData from "../data/Personal.json"
+import { useNavigate } from "react-router-dom"; // ✅ nuevo import
 
 const filtrarDatos = (campo, parametro) => {
   return personalData.filter(item => {
@@ -18,11 +19,23 @@ export const Resultado = () => {
   const { formData } = useFormContext();
   const campo = formData.campo
   const parametro = formData.parametro
+  const navigate = useNavigate(); // ✅ inicializamos el hook
 
   const resultados = filtrarDatos(campo, parametro);
 
   return (
     <div className='resultadoContainer'>
+       
+ {/* ✅ Botón de nueva búsqueda */}
+      <div className='busqueda'>
+        <button
+          onClick={() => navigate("/personal")}
+          className="btnNuevaBusqueda"
+        >
+          🔍 Nueva búsqueda
+        </button>
+      </div>
+
       {resultados.length > 0 ? (
         resultados.map((item) => (
           <div key={item.Legajo} className="card">
@@ -35,9 +48,6 @@ export const Resultado = () => {
             <p>Fecha Nac: {item.F_Nacimiento}</p>
             <p>Categoria: {item.Categoria}</p>
             <p>Sector: {item.Sector}</p>
-
-
-            {/* Agrega más campos según sea necesario */}
           </div>
         ))
       ) : (
@@ -45,4 +55,8 @@ export const Resultado = () => {
       )}
     </div>
   );
-}
+};
+
+
+
+     
