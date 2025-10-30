@@ -34,7 +34,8 @@
     {
         "username": "Sanita",
         "password": "5703"
-    },{
+    },
+    {
         "username": "Mendoza",
         "password": "5414"
     },
@@ -48,6 +49,15 @@
     {
         "username": "Admin",
         "password": "admin"
+    },
+    {
+
+        "username": "Domene",
+        "password": "5915"
+    },
+    {
+        "username": "Guaymas",
+        "password": "5397"
     },
     {
         "username": "Acuña",
