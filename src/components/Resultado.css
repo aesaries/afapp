@@ -11,6 +11,35 @@
     background-color: rgb(160, 156, 219);
     
   }
+  .busqueda {
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+}
+
+.btnNuevaBusqueda {
+  background: linear-gradient(135deg, #0085FF, #00bfff);
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btnNuevaBusqueda:hover {
+  background: linear-gradient(135deg, #0051ff, #0085FF);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+.btnNuevaBusqueda:active {
+  transform: translateY(0px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
   
   .card h4 {
     position: relative;
