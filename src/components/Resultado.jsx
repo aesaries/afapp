@@ -40,14 +40,18 @@ export const Resultado = () => {
         resultados.map((item) => (
           <div key={item.Legajo} className="card">
             <h4>
-              {item.Apellido}, {item.Nombres}
+              {item.Apellido}, {item.Nombre}
             </h4>
             <p>Legajo: {item.Legajo}</p>
-            <p>Documento: {item.Documento}</p>
-            <p>Fecha Ingreso: {item.Alta}</p>
+            <p>Documento: {item.DNI}</p>
+            <p>Fecha Ingreso: {item.F_Alta}</p>
             <p>Fecha Nac: {item.F_Nacimiento}</p>
-            <p>Categoria: {item.Categoria}</p>
+            <p>Puesto: {item.Puesto}</p>
             <p>Sector: {item.Sector}</p>
+            <p>Base: {item.Base}</p>
+            <p>Turno: {item.Turno}</p>
+            <p>Empresa: {item.Empresa}</p>
+            
           </div>
         ))
       ) : (
